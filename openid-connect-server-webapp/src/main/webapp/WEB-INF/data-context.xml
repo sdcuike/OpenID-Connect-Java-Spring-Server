@@ -38,21 +38,5 @@
 		<property name="showSql" value="true" />
 	</bean>
 
-	 
 
-	<!--  The following is for connecting to a PostgreSQL database that has been initialized with
-			src/main/resources/db/tables/psql_database_tables.sql -->
-	<!--
-	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
-		<property name="driverClassName" value="org.postgresql.Driver" />
-		<property name="jdbcUrl" value="jdbc:postgresql://localhost/oic" />
-		<property name="username" value="oic" />
-		<property name="password" value="oic" />
-	</bean>
-
-	<bean id="jpaAdapter" class="org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter">
-		<property name="databasePlatform" value="org.eclipse.persistence.platform.database.PostgreSQLPlatform" />
-		<property name="showSql" value="true" />
-	</bean>
-	-->
 </beans>
